@@ -1,0 +1,21 @@
+{
+  "name": "rabbit-rag",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@langchain/openai": "^0.3.14",
+    "dotenv": "^16.4.7",
+    "langchain": "^0.3.30"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
